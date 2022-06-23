@@ -46,7 +46,7 @@ export default function HomePage() {
 
     if (error) {
         console.log("error:", error);  
-        return <ErrModal />
+        return <ErrModal message={error.message}/>
     };
 
     return (
