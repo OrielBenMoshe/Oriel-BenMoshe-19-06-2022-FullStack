@@ -1,0 +1,40 @@
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+    background-color: $black !important;
+
+}
+.SearchBar {
+    .MuiAutocomplete-root {
+        background-color: white;
+        border-radius: 8px;
+        height: 50px;
+    }
+    .MuiOutlinedInput-root {
+        height: 50px;
+    }
+    .css-1iz4iln,
+    #combo-box-demo-label {
+        color: black
+    }
+    .Mui-focused fieldset{
+        border: 3px solid $yellow !important;
+        height: 55px;
+        border-radius: 8px;
+
+    }
+    .Mui-focused #combo-box-demo-label {
+        color: $yellow;
+        padding-left: 8px;
+        font-weight: 600;
+        top: 1px;
+        // background-color: white;
+        // border-radius: 4px;
+    }
+    #combo-box-demo {
+        padding-left: 36px;
+    }
+    label#combo-box-demo-label {
+        padding-left: 36px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

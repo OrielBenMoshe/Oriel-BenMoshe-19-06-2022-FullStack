@@ -1,0 +1,4 @@
+.paper {
+    @include flex(space-between, null, column);
+    min-height: 72vh;
+}

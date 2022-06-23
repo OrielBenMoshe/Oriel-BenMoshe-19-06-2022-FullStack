@@ -1,0 +1,68 @@
+.FavoritesPage {
+    .cities-container {
+        @include flex(flex-start);
+        flex-wrap: wrap;
+        gap: 13px;
+    }
+}
+
+.CityCard {
+    .MuiCardContent-root {
+        position: relative;
+        padding: 13px;
+        padding-top: 30px;
+
+        .remove-btn {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            z-index: 3;
+            color: $gray-light;
+            transition: all 0.3s;
+            cursor: pointer;
+            
+            &:hover {
+                color: inherit;
+            }
+        }
+
+        header {
+            @include flex(space-between, center);
+
+            .city-name {
+                width: 70%;
+                white-space: nowrap;
+            }
+            .weather-logo {
+                width: 30%;
+                text-align: end;
+
+                img {
+                    max-width: 54px;
+                }
+            }
+        }
+
+        .temperature {
+            margin: auto;
+            text-align: center;
+            font-size: 64px;
+            font-weight: bold;
+        }
+
+    }
+}
+
+.MuiCardActions-root {
+    padding-bottom: 16px !important;
+
+    a {
+        margin: auto;
+        button {
+            background-color: #FFC107;
+            &:hover {
+                background-color: $black;
+            }
+        }
+    }
+}

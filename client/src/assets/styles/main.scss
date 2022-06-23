@@ -1,0 +1,17 @@
+//Utils
+@import './Utils/variables';
+@import './Utils/mixins';
+
+@import 'config';
+
+// Layout
+@import './Layout/Navbar';
+
+// Common
+@import './common';
+
+// Components
+
+// Pages
+@import './Pages/HomePage';
+@import './Pages/FavoritesPage';
