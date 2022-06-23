@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/Oriel-BenMoshe-19-06-2022-FullStack/static/css/main.4f027121.css",
+    "main.js": "/Oriel-BenMoshe-19-06-2022-FullStack/static/js/main.5a06735e.js",
+    "index.html": "/Oriel-BenMoshe-19-06-2022-FullStack/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.4f027121.css",
+    "static/js/main.5a06735e.js"
+  ]
+}
